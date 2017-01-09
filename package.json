@@ -1,12 +1,12 @@
 {
-  "name": "@segment/analytics.js-integration-segmentio",
-  "description": "The Segmentio analytics.js integration.",
-  "version": "3.2.2",
+  "name": "ghahramani/analytics.js-integration-infoowl",
+  "description": "The Infoowl analytics.js integration.",
+  "version": "2.0.0",
   "keywords": [
     "analytics.js",
     "analytics.js-integration",
     "segment",
-    "segmentio"
+    "infoowl"
   ],
   "main": "lib/index.js",
   "scripts": {
@@ -14,34 +14,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/segment-integrations/analytics.js-integration-segmentio.git"
+    "url": "git+https://github.com/ghahramani/analytics-js-integration-infoowl.git"
   },
   "author": "Segment <friends@segment.com>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/segment-integrations/analytics.js-integration-segmentio/issues"
+    "url": "https://github.com/ghahramani/analytics-js-integration-infoowl.git/issues"
   },
-  "homepage": "https://github.com/segment-integrations/analytics.js-integration-segmentio#readme",
+  "homepage": "https://github.com/ghahramani/analytics-js-integration-infoowl.git#readme",
   "dependencies": {
-    "@ndhoule/extend": "^2.0.0",
-    "@ndhoule/keys": "^2.0.0",
-    "@segment/ad-params": "^1.0.0",
-    "@segment/analytics.js-integration": "^2.1.0",
-    "@segment/protocol": "^1.0.0",
-    "@segment/send-json": "^3.0.0",
-    "@segment/top-domain": "^3.0.0",
-    "@segment/utm-params": "^2.0.0",
-    "component-clone": "^0.2.2",
-    "component-cookie": "^1.1.2",
-    "component-type": "^1.2.1",
-    "json3": "^3.3.2",
-    "spark-md5": "^2.0.2",
-    "uuid": "^2.0.2",
-    "yields-store": "^1.0.2"
+    "@segment/analytics.js-integration": "^3.2.0"
   },
   "devDependencies": {
     "@segment/analytics.js-core": "^3.0.0",
-    "@segment/analytics.js-integration-tester": "^2.0.0",
+    "@segment/analytics.js-integration-tester": "^3.1.0",
     "@segment/clear-env": "^2.0.0",
     "@segment/eslint-config": "^3.1.1",
     "browserify": "^13.0.0",
@@ -50,7 +36,7 @@
     "eslint-plugin-mocha": "^2.2.0",
     "eslint-plugin-require-path-exists": "^1.1.5",
     "istanbul": "^0.4.3",
-    "karma": "^1.1.0",
+    "karma": "^0.13.22",
     "karma-browserify": "^5.0.4",
     "karma-chrome-launcher": "^1.0.1",
     "karma-coverage": "^1.0.0",
@@ -62,8 +48,6 @@
     "mocha": "^2.2.5",
     "npm-check": "^5.2.1",
     "phantomjs-prebuilt": "^2.1.7",
-    "proclaim": "^3.4.1",
-    "sinon": "^1.17.4",
     "watchify": "^3.7.0"
   }
 }
