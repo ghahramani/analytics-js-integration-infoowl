@@ -1,7 +1,7 @@
 {
   "name": "@ghahramani/analytics.js-integration-infoowl",
   "description": "The Infoowl analytics.js integration.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [
     "analytics.js",
     "analytics.js-integration",
